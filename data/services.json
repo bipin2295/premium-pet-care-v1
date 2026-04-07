@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Dog Walking",
+    "description": "30-minute walk in your neighborhood.",
+    "basePrice": 25
+  },
+  {
+    "id": 2,
+    "title": "Home Boarding",
+    "description": "Overnight care in a comfortable home environment.",
+    "basePrice": 75
+  }
+]

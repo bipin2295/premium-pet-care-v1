@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "clientName": "Jane Doe",
+    "dogName": "Buddy",
+    "reviewText": "They are the best! Buddy always comes back happy and tired.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "clientName": "John Smith",
+    "dogName": "Lucy",
+    "reviewText": "I can't recommend them enough. Lucy loves her walks with them.",
+    "rating": 5
+  }
+]
