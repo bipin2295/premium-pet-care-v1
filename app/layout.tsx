@@ -6,8 +6,12 @@ import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const siteUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : 'http://localhost:3000'
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-domain.com'), // Replace with your actual domain
+  metadataBase: new URL(siteUrl),
   title: {
     template: '%s | Paws & Play Premium Pet Care',
     default: 'Paws & Play | Dog Walking & Boarding',
@@ -18,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Paws & Play | Premium Dog Walking & Boarding',
     description:
       'Paws & Play offers premium dog walking and home boarding services in the downtown area. Trustworthy, professional, and loving care for your best friend.',
-    url: 'https://your-domain.com', // Replace with your actual domain
+    url: siteUrl,
     siteName: 'Paws & Play Premium Pet Care',
     images: [
       {
